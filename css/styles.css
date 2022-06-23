@@ -1,0 +1,32 @@
+.project-text {
+    text-align: center;
+    font-size: 75px;
+    color: white
+}
+
+.project1 {
+    float: left;
+    width: 44%;
+    padding: 10px;
+    margin: 20px;
+    margin-left: 80px;
+    height: 250px;
+    background-color: cornflowerblue;
+}
+
+.project2 {
+    float: left;
+    width: 44%;
+    padding: 10px;
+    margin: 20px;
+    height: 250px;
+    background-color: rgb(23, 163, 140);
+}
+
+.project1:hover {
+    background-color: blueviolet;
+}
+
+.project2:hover {
+    background-color: darkorange
+}
