@@ -4,29 +4,32 @@
     color: white
 }
 
-.project1 {
-    float: left;
-    width: 44%;
-    padding: 10px;
-    margin: 20px;
-    margin-left: 80px;
-    height: 250px;
-    background-color: cornflowerblue;
+span.owner {
+    display: block;
+    width: 400px;
+    height: 25px;
+    background-color: rgb(231, 231, 231);
+    padding: 5px;
+    border: 2px solid purple;
+    margin-bottom: 3px;
 }
 
-.project2 {
-    float: left;
-    width: 44%;
-    padding: 10px;
-    margin: 20px;
-    height: 250px;
-    background-color: rgb(23, 163, 140);
+.owner:hover{
+    background-color: lightcoral;
 }
 
-.project1:hover {
-    background-color: blueviolet;
+.owner .oinfo{
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
 }
 
-.project2:hover {
-    background-color: darkorange
+.owner:hover + .oinfo{
+	visibility: visible;
 }
