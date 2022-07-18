@@ -4,8 +4,9 @@
     color: white
 }
 
-span.owner {
+.owner {
     display: block;
+    position: relative;
     width: 400px;
     height: 25px;
     background-color: rgb(231, 231, 231);
@@ -28,8 +29,10 @@ span.owner {
     padding: 5px 0;
     position: absolute;
     z-index: 1;
-}
+    top: -2px;
+    left: 105%;
+}    
 
-.owner:hover + .oinfo{
+.owner:hover .oinfo{
 	visibility: visible;
 }
